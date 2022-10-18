@@ -51,10 +51,6 @@ table {
 
 @import url('https://fonts.googleapis.com/css2?family=Mada:wght@200;400;600&family=Maven+Pro:wght@400;500;600&display=swap');
 
-@font-face {
-	font-family: DIN Condensed;
-	src: url(fonts/din-regular-webfont.woff) format(woff);
-}
 /*****************************************************************************/
 
 body {
@@ -75,9 +71,13 @@ border-radius: 20px;
 }
 
 h2 {
-    font-size: xx-large;
-	color: ;
+    font-size: 100px;
+	color: white;
 	font-family: DIN Condensed;
+	padding: 10px;
+	margin: 10px;
+	text-transform:uppercase;
+	font-weight: bold;
 }
 
 .div-section-info {
@@ -88,10 +88,6 @@ h2 {
 h4 {
 	display: inline-block;
     background-color: #A00CB8;
-	padding: 5px
+	padding: 5px;
 
-}
-
-p {
-	font-family;
 }
