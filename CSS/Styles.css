@@ -54,9 +54,12 @@ table {
 @font-face {
 	font-family: DIN Condensed;
 	src: url(fonts/din-regular-webfont.woff) format(woff);
-
 }
 /*****************************************************************************/
+
+body {
+	background-color: #000000;
+}
 
 /* Accès maps*/
 
@@ -73,6 +76,7 @@ border-radius: 20px;
 
 h2 {
     font-size: xx-large;
+	color: ;
 	font-family: DIN Condensed;
 }
 
