@@ -47,5 +47,47 @@ table {
 	border-spacing: 0;
 }
 
-/*****************************************************************************
+/*****************************************************************************/
 
+@import url('https://fonts.googleapis.com/css2?family=Mada:wght@200;400;600&family=Maven+Pro:wght@400;500;600&display=swap');
+
+@font-face {
+	font-family: DIN Condensed;
+	src: url(fonts/din-regular-webfont.woff) format(woff);
+
+}
+/*****************************************************************************/
+
+/* Accès maps*/
+
+iframe.maps {
+box-sizing: border-box;
+/* position: absolute; */
+width: 1090px;
+height: 427px;
+left: 173px;
+top: 3280px;
+border: 1px solid #000000;
+border-radius: 20px;
+}
+
+h2 {
+    font-size: xx-large;
+	font-family: DIN Condensed;
+}
+
+.div-section-info {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+h4 {
+	display: inline-block;
+    background-color: #A00CB8;
+	padding: 5px
+
+}
+
+p {
+	font-family;
+}
