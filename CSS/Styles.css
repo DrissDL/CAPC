@@ -60,7 +60,7 @@ h2.titre-info {
 	position: absolute;
 }
 
-h2 {
+.section-info h2 {
     font-size: 100px;
 	color: white;
 	font-family: DIN Condensed;
@@ -70,12 +70,25 @@ h2 {
 	font-weight: bold;
 }
 
+.photo-opaque {
+	height:10px;
+}
+.photo-opaque img{
+	opacity: 20%;
+	height: 1100px;
+	
+	/* position: absolute; */
+}
+
+.div-info {
+	z-index: 1;
+}
+
 .div-section-info {
     display: flex;
     justify-content: space-evenly;
-	background-image: url("../img/photo_info.jpg");
-	background-position: center;
-	opacity: 10%;
+	/* background-image: url("../img/photo_info.jpg");
+	background-position: center; */
 	padding:10% 
 }
 
@@ -88,9 +101,10 @@ h2 {
 	font-weight: bold;
 	color: white;
 	padding: 10px 40px;
+	opacity: 100%;
 }
 
-.network {
+.div-info .network {
 	display: flex;
 	flex-direction: column;
 }
@@ -98,7 +112,12 @@ h2 {
 .div-info p {
 	color:white;
 	font-family: Maven, sans-serif;
-	margin: 20px ;
+	margin: 30px 20px ;
+}
+
+.div-info a {
+	font-family: Maven, sans-serif;
+	color: white;
 }
 
 .div-acces {
