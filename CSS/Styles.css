@@ -56,19 +56,6 @@ section.section-info {
 	background-color: #000000;
 }
 
-/* Accès maps*/
-
-iframe.maps {
-box-sizing: border-box;
-/* position: absolute; */
-width: 1090px;
-height: 427px;
-left: 173px;
-top: 3280px;
-border: 1px solid #000000;
-border-radius: 20px;
-}
-
 h2 {
     font-size: 100px;
 	color: white;
@@ -81,16 +68,46 @@ h2 {
 
 .div-section-info {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
-h4 {
+.div-info h4 {
 	display: inline-block;
+	font-size: 30px;
     background-color: #A00CB8;
-	padding: 5px;
+	font-family: "DIN Condensed";
+	font-weight: bold;
+	color: white;
+	padding: 10px 40px;
 }
 
 .network {
 	display: flex;
 	flex-direction: column;
+}
+
+.div-info p {
+	color:white;
+	font-family: Maven, sans-serif;
+	margin: 20px ;
+}
+
+.div-acces {
+	margin-left: 13%;
+}
+
+/* Accès maps*/
+
+iframe.maps {
+	width: 1090px;
+	height: 427px;
+	left: 173px;
+	top: 3280px;
+	border: 1px solid #000000;
+	border-radius: 20px;
+	margin: auto;
+}
+	
+div.maps {
+	display: flex;
 }
