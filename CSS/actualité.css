@@ -1,0 +1,126 @@
+@font-face {
+    font-family: 'DIN';
+    src: url(‘police/DIN/DINCondensed-Bold.ttf’) format('ttf'),
+
+}
+
+body {
+    font-family: 'DIN', sans-serif;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 100px;
+    color: white;
+    margin-left: 60px;
+    padding-top: 29px;
+    margin-bottom: 7px;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    text-align: start;
+}
+
+h4 {
+    display: inline-block;
+    color: white;
+    background-color: #A00CB8;
+    padding: 1%;
+
+}
+
+.img2 {
+    margin-top: 11%;
+    border-radius: 5%;
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
+.fondnoir {
+    background-color: black;
+}
+
+p{
+    margin-top: 1%;
+    color: white;
+}
+
+section {
+    margin-bottom: 1%;
+}
+
+.voir-plus1 {
+    font-family: 'DIN', sans-serif;
+    background-color: rgb(160, 12, 184);
+    color: rgb(255, 255, 255);
+    border-radius: 20px;
+    border: solid 1px black;
+    font-size: 20px;
+    margin: 2%;
+}
+
+.contenant {
+    position: relative;
+    text-align: center;
+}
+
+.texte_centrer {
+    position: relative;
+    top: 80%;
+    left: 38%;
+    transform: translate(-50%, -50%);
+
+}
+.texte_centrer2 {
+    position: relative;
+    top: 50%;
+    left: 55%;
+    transform: translate(-20%, -20%);
+    margin-right: 60%;
+    text-align: start;
+
+}
+
+.texte_centrer3 {
+    position: relative;
+    top: 80%;
+    left: 20%;
+    transform: translate(-100%, -50%);
+
+}
+.texte_centrer4 {
+    position: relative;
+    top: 50%;
+    left: 45%;
+    transform: translate(-20%, -20%);
+    margin-right: 60%;
+    text-align: start;
+
+}
+
+.footer{
+    background-color: #A00CB8;
+}
+
+h5{
+    color: white;
+    margin-left:45px;
+    font-size:40px;
+    padding:50px;
+}
+
+h6{
+    color:white;
+    margin-left: 100px;
+    margin-bottom: 25px;
+    margin-right: 100px;
+    font-size: 25px;
+}
+
+.flex{
+    display: flex;
+    text-align: left;
+    justify-content: space-between;
+}
