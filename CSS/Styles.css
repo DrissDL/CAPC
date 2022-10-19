@@ -52,8 +52,7 @@ table {
 @import url('https://fonts.googleapis.com/css2?family=Mada:wght@200;400;600&family=Maven+Pro:wght@400;500;600&display=swap');
 
 /*****************************************************************************/
-
-body {
+section.section-info {
 	background-color: #000000;
 }
 
@@ -82,12 +81,16 @@ h2 {
 
 .div-section-info {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 
 h4 {
 	display: inline-block;
     background-color: #A00CB8;
 	padding: 5px;
+}
 
+.network {
+	display: flex;
+	flex-direction: column;
 }
