@@ -17,14 +17,8 @@ header ul {
     flex-direction: row;
     justify-content: flex-end;
     background: white;
-    padding: 20px;
     font-family:'DIN', sans-serif ;
     padding: 30px;
-}
-
-header .menu{
-    display: flex;
-    align-items: center;
 }
 
 header .logo1, header .logo2 {
