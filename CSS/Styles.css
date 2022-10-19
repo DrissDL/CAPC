@@ -69,6 +69,7 @@ h2 {
 .div-section-info {
     display: flex;
     justify-content: space-evenly;
+	background-image: url("../img/photo_info.jpg");
 }
 
 .div-info h4 {
