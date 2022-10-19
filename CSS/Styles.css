@@ -56,6 +56,10 @@ section.section-info {
 	background-color: #000000;
 }
 
+h2.titre-info {
+	position: absolute;
+}
+
 h2 {
     font-size: 100px;
 	color: white;
@@ -70,6 +74,16 @@ h2 {
     display: flex;
     justify-content: space-evenly;
 	background-image: url("../img/photo_info.jpg");
+	background-position: center;
+	opacity: 10%;
+	padding:10% 
+}
+
+.div-section-info * {
+	opacity: 100%;
+}
+section.section-info {
+	opacity: 100%;
 }
 
 .div-info h4 {
