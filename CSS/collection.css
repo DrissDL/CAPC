@@ -140,3 +140,75 @@ section.collection .button{
 div.text-button {
     margin-bottom: 5%;
 }
+@media (max-width: 1024px){
+    .defile{
+        display: max-block-size;
+    }
+    
+
+    .span{
+        display: max-block-size;
+    }
+    
+
+    .slide{
+        display: max-block-size;
+    }
+
+    .slide1{
+        display: max-block-size;
+        width: 200px;
+        height: 200px;
+    }
+    
+    .slide3{
+        display:max-block-size;
+        width: 200px;
+        height: 200px;
+    }
+    .slide4{
+        display:max-block-size;
+        width: 200px;
+        height: 200px;
+    }
+    .slide5{
+        display:max-block-size;
+        width: 200px;
+        height: 200px;
+    }
+    .slide6{
+        display:max-block-size;
+        width: 200px;
+        height: 200px;
+    }
+    .slide7{
+        display:max-block-size;
+        width: 200px;
+        height: 200px;
+    }
+
+    .textcollection{
+        font-size: 100%;
+        width: 300px;
+    }
+    .slide {
+        /* display: max-bloc-size; */
+        font-size: 100px;
+        width: 100px;
+        height: 100px;
+    }
+    /* .textenew{
+        font-size: 100%;
+        color: white
+    } */
+    /* .texte-carousel{
+        background-color: black;
+    } */
+    .slide p {
+        display: flex;
+    }
+    
+
+    
+
+}

@@ -143,3 +143,23 @@ iframe.maps {
 div.maps {
 	display: flex;
 }
+
+@media (max-width: 1024px){
+
+	.section-info h2{
+		font-size: 60px;
+		width: 100%;
+	}
+	.div-info{
+		font-size: 10px;
+		display: max-block-size;
+		justify-content: left;
+		margin-top: 40%;
+	}
+	.photo-opaque{
+		display: max-bloc-size;
+	}
+
+
+
+}
