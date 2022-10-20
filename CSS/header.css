@@ -57,13 +57,37 @@ header .loupe1 {
     justify-self: flex-end;
 }
 
-span.menu {
+a#menu {
     background: white;
     color: black;
     display: none;
+    justify-content: flex-end;
 }
 
 @media (max-width: 1024px) {
+
+    /* État fermé */
+    .main-menu .close {
+        display: none;
+    }
+
+    .main-menu ul {
+        display: none;
+    }
+
+    /* État ouvert */
+    .main-menu:target .close {
+        display: block;
+    }
+
+    .main-menu:target .open {
+        display: none;
+    }
+
+    .main-menu:target ul {
+        display: block;
+    }
+
     header span.menu {
         display: block;
     }
@@ -80,5 +104,9 @@ span.menu {
         background: white;
         padding: 30px;
         width: 100px;
+    }
+
+    header nav ul li {
+        padding-bottom: 50px;
     }
 }
