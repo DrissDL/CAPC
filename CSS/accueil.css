@@ -32,21 +32,22 @@ div.div-titre {
     color: #A00CB8;
 }
 
-.gif {
+section.accueil .gif {
     position: absolute;
+    border: solid 1px black;
+}
+
+
+section.accueil .photo-top .gif {
     margin-left: 228px;
     margin-top: 86px;
     border-radius: 20px;
-    border: solid 1px black;
-   
 }
 
-.gaf {
-    position: absolute;
+section.accueil .photo-bottom .gif {
     margin-inline-start: 903px;
     margin-top: 140px;
     border-radius: 20px;
-    border: solid 1px black;
 }
 
 

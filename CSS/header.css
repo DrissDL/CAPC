@@ -55,6 +55,7 @@ header .open, header .close {
     background: white;
     color: black;
     display: none;
+    margin-right: 5px;
 }
 
 @media (max-width: 1024px) {
@@ -63,41 +64,36 @@ header .open, header .close {
         width: 10%;
     }
 
+    header ul {
+        display: none;
+    }
 
     /* État fermé */
     header .main-menu .close {
         display: none;
-        z-index: 1;
     }
 
-    header .main-menu ul {
+    header .main-menu ul, header .loupe1 {
         display: none;
     }
 
     /* État ouvert */
     
+
     header .main-menu:target ul {
         display: flex;
         flex-direction: column;
         position: absolute;
-        top: 0;
         right: 0;
         background: white;
-        z-index: 10;
-        padding: 30px;
-        width: 100px;
     }
 
     header .main-menu:target .close {
         display: flex;
-        flex-direction: row-reverse;    
+        flex-direction: row-reverse;
     }
 
     header .main-menu:target .open {
-        display: none;
-    }
-
-    header ul {
         display: none;
     }
 
@@ -109,5 +105,11 @@ header .open, header .close {
         display: flex;
         flex-direction: row-reverse;
     }
-    
+}
+
+@media (max-width: 504px) {
+
+    header .logo1, header .logo2 {
+        width: 20%;
+    }
 }
