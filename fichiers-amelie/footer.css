@@ -25,13 +25,13 @@ h3.newsletter {
 .newsletter:hover {
     color: #A00CB8;
 }
-
+footer{
+    background: #A00CB8;
+}
 .footer {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 5%;
-    background: #A00CB8;
-    height: 100%;
     padding-bottom: 100px;
 
 }
@@ -39,6 +39,10 @@ h3.newsletter {
 ul {
     list-style: none;
     padding-left: 0;
+}
+
+.bottom-foot {
+    height: 170px;
 }
 
 
@@ -96,6 +100,7 @@ ul {
 .logo1-footer, .logo2-footer {
     position: absolute;
     width: 100px;
+    margin-bottom: 20%;
 }
 
 .footer .logo2-footer {
