@@ -87,8 +87,7 @@ ul {
 
 
 .footer .logo-footer {
-    width: 100%;
-    height: 100%;
+    width: 200%;
     display: flex;
     justify-content: flex-end;
     align-content: flex-end;
@@ -97,9 +96,6 @@ ul {
 .logo1-footer, .logo2-footer {
     position: absolute;
     width: 100px;
-    /* display: flex;
-    justify-content: flex-end;
-    align-content: flex-end; */
 }
 
 .footer .logo2-footer {
