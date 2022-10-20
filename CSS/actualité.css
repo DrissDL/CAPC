@@ -31,12 +31,19 @@ section.fondnoir h4 {
     padding: 1%;
 
 }
-
+.img1 {
+    margin-top: 11%;
+    border-radius: 5%;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    
+}
 .img2 {
     margin-top: 11%;
     border-radius: 5%;
     margin-left: 5vw;
     margin-right: 5vw;
+    
 }
 
 .fondnoir {
@@ -57,6 +64,7 @@ section.fondnoir p{
     border: solid 1px black;
     font-size: 20px;
     margin: 2%;
+    padding: 10px 30px 10px 30px;
 }
 
 .contenant {
@@ -82,17 +90,18 @@ section.fondnoir p{
 }
 
 .texte_centrer3 {
-    position: relative;
-    top: 80%;
-    left: 20%;
-    transform: translate(-100%, -50%);
+    /* position: relative; */
+    top: 110%;
+    left: 10%;
+    transform: translate(-300%, 20%);
 
 }
 .texte_centrer4 {
     position: relative;
+    margin-top: 10%;
     top: 50%;
     left: 45%;
-    transform: translate(-20%, -20%);
+    transform: translate(-20%, 20%);
     margin-right: 60%;
     text-align: start;
 

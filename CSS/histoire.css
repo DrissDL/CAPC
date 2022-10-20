@@ -9,14 +9,18 @@ section.histoire div.titre{
     justify-content: left;
 }
 .titre-histoire{
-    color: rgb(160, 12, 184); 
+    color: rgb(160, 12, 184);
+   
+    
 }
+
 .titre-parti{
     display: inline;
     background-color:rgb(160, 12, 184) ;
     color: rgb(253, 253, 253);
     margin-right: 40px;
     margin-left: 80px;
+    
 }
 .titre-bicolor{
     font-size: 80px;
@@ -29,8 +33,8 @@ section.histoire div.titre{
     background-color: rgb(160, 12, 184) ;
     color: rgb(255, 255, 255);
     border-radius: 20px;
-    border: solid 1px black;
     font-size: 20px;
+    padding: 10px 30px 10px 30px;
     
 }
 .histoire-div{
@@ -38,12 +42,15 @@ section.histoire div.titre{
     flex-direction: row;
     justify-content: space-around;
     padding-bottom: 100px;
+    margin-bottom: 100px;
+    
 }
 .histoire-text{
     padding-top: 120px;
     margin-left: 40px;
     margin-right: 80px;
     font-size: 25px;
+    margin-bottom: 50px;
 }
 .img-hist1{
     margin-right: 40px;

@@ -1,6 +1,6 @@
 section.collection {
     background-color: white ;
-    width: 1440px;
+    
 }
 @import url('https://fonts.googleapis.com/css2?family=Mada&display=swap');
 section.collection h3{
@@ -44,7 +44,7 @@ section.collection h1{
 }
 .defile {
     
-    font-size: xx-large;
+    font-size: 80px;
     margin-top: 30px;
     display: inline-block;
     margin-right: 30px;
@@ -63,6 +63,8 @@ span.titreviolet{
     width: 500px;
     height: 130px;
     margin-left: 100px;
+    margin-bottom: 50px;
+    font-size: 130%;
 
 }
 .slide{
@@ -127,7 +129,7 @@ section.collection .button{
     
     background-color:#A00CB8;
     text-align: center;
-    padding: 10px 10px;
+    padding: 10px 30px 10px 30px;
     border-radius: 20px;
     color: white;
     text-decoration: none;
