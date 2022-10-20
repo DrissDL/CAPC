@@ -62,7 +62,7 @@ span.titreviolet{
     color: #A00CB8;
     display: block;
     width: 500px;
-    height: 500px;
+    height: 130px;
     margin-left: 100px;
 
 }
@@ -76,7 +76,7 @@ span.titreviolet{
     color: white;
 }
 .slide1{
-    background-image: url("CAPC1.jpg");
+    background-image: url("../img/CAPC1.jpg");
     background-size: cover;
     background-position: center;
     
@@ -99,28 +99,28 @@ span.titreviolet{
 
 }
 .slide3{
-    background-image: url("CAPC3.jpg");
+    background-image: url("../img/CAPC3.jpg");
     background-size: cover;
     background-position: center;
 }
 .slide4 {
-    background-image: url("CAPC4.jpg");
+    background-image: url("../img/CAPC4.jpg");
     background-size: cover;
     background-position: center;
 }
 .slide5{
-    background-image: url("CAPC5.jpg");
+    background-image: url("../img/CAPC5.jpg");
     background-size: cover;
     background-position: center;
 }
 .slide6{
-    background-image: url("CAPC6.jpg");
+    background-image: url("../img/CAPC6.jpg");
     background-size: cover;
     background-position: center;
     
 }
 .slide7{
-    background-image: url("CAPC7.jpg");
+    background-image: url("../img/CAPC7.jpg");
     background-size: cover;
     background-position: center;
 }
@@ -133,10 +133,9 @@ span.titreviolet{
     color: white;
     text-decoration: none;
     transition: all 0.25s ease-in-out;
-    display: block;
-    width: 100px;
-    height: 10px;
-    position: absolute;
-    left: 172px;
-    top: 600px;
+    margin-left: 100px;
+}
+
+div.text-button {
+    margin-bottom: 5%;
 }
