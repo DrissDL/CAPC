@@ -122,3 +122,25 @@ section.fondnoir h6{
     text-align: left;
     justify-content: space-between;
 }
+
+
+@media (max-width: 1024px) {
+    section.fondnoir h2 {
+        font-size: 40px;
+    }
+    .fondnoir .flex {
+        display: block;
+    }
+    .img2 {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .contenant {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .texte_centrer2{
+        left: auto;
+        margin-right: 0;
+    }
+}
