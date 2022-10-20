@@ -31,10 +31,8 @@ h3.newsletter {
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 5%;
     background: #A00CB8;
-    width: 106%;
     height: 100%;
     padding-bottom: 100px;
-
 }
 
 ul {
@@ -87,7 +85,7 @@ ul {
 
 
 .footer .logo-footer {
-    width: 300%;
+    width: 330%;
     display: flex;
     justify-content: flex-end;
     align-content: flex-end;
