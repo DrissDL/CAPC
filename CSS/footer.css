@@ -120,3 +120,26 @@ ul {
     transition: 300ms;
     opacity: 100%;
 }
+
+@media (max-width: 1024px) {
+
+    .newsletter{
+        font-size: 30%;
+        height: 300px;
+        margin-top: 20px;
+        /* text-align: center; */
+        line-height: 200px;
+        
+    }
+    .logo-footer.logo1-footer{
+        font-size: 10px;
+    }
+    .logo-footer.logo2-footer{
+        font-size: 10px;
+    }
+    .droit{
+        font-size: 10px;
+        width: 150%;
+    }
+
+}
