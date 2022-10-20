@@ -26,13 +26,28 @@ h3.newsletter {
     color: #A00CB8;
 }
 
+footer{
+    background: #A00CB8;
+}
 .footer {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 5%;
-    background: #A00CB8;
-    height: 100%;
     padding-bottom: 100px;
+
+}
+
+.bottom-footer {
+    height: 170px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    color: white;
+}
+
+.bottom-footer .logo-footer {
+    width: 110px;
+    height: 117px;
 }
 
 ul {
@@ -96,20 +111,24 @@ ul {
     width: 100px;
 }
 
-.footer .logo2-footer {
+.bottom-footer
+ .logo2-footer {
     opacity: 0%;
 }
 
-.footer .logo1-footer {
+.bottom-footer
+ .logo1-footer {
     opacity: 100%;
 }
 
-.footer .logo1-footer:hover {
+.bottom-footer
+ .logo1-footer:hover {
     transition: 300ms;
-    opacity: 0%;
+    opacity: 0;
 }
 
-.footer .logo2-footer:hover {
+.bottom-footer
+ .logo2-footer:hover {
     transition: 300ms;
     opacity: 100%;
 }
