@@ -47,7 +47,7 @@ header .loupe1{
     display:inline;
     justify-self: flex-end;
 }
-.couleur:hover{
+.couleur a:hover{
     color: #A00CB8;
 }
 
