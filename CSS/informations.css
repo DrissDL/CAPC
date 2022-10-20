@@ -144,6 +144,7 @@ div.maps {
 	display: flex;
 }
 
+
 @media (max-width: 1024px){
 
 	.section-info h2{
@@ -159,7 +160,4 @@ div.maps {
 	.photo-opaque{
 		display: max-bloc-size;
 	}
-
-
-
 }

@@ -52,12 +52,18 @@ section.accueil .photo-bottom .gif {
 
 
 @media (max-width: 1024px) {
-    div.photo-top, div.photo-bottom {
+    .accueil {
+        padding-bottom: 10%;
+    }
+
+    .accueil .gif {
         display: none;
     }
-    .titre {
+
+    .accueil .titre {
         font-size:52px;
         line-height: 80px;
     }
 
+    
 }
