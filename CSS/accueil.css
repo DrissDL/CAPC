@@ -141,6 +141,7 @@ div.photo-top , div.photo-bottom {
     margin-left:5%
 }
 
+
 /* div.photo-top img:last-child , div.photo-bottom img:last-child {
     display: flex;
     margin: auto;
@@ -179,4 +180,16 @@ div.div-titre {
     margin-top: 140px;
     border-radius: 20px;
     border: solid 1px black;
+}
+
+
+@media (max-width: 1024px) {
+    div.photo-top, div.photo-bottom {
+        display: none;
+    }
+    .titre {
+        font-size:52px;
+        line-height: 80px;
+    }
+   
 }
