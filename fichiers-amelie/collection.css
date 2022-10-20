@@ -1,0 +1,142 @@
+section.collection {
+    background-color: white ;
+    
+}
+@import url('https://fonts.googleapis.com/css2?family=Mada&display=swap');
+section.collection h3{
+    font-family: 'Mada', sans-serif;
+    text-align: center;
+    padding: 30px;
+    padding-right: 100%;
+    background-color: black;
+    width: 100%;
+}
+@import url('https://fonts.googleapis.com/css2?family=Mada&family=Maven+Pro&display=swap');
+
+section.collection p{
+    font-family: 'Maven Pro', sans-serif;
+}
+
+section.collection h1{
+    color: #A00CB8 ;
+    text-align: center;
+    font-family: 'dinregular';
+}
+.texte
+{
+    color : black;
+}
+.texte:hover
+{
+    color : #A00CB8 ;
+}
+.textenew
+{
+    color :white;
+    text-align: center;
+    font-size: 600%;
+    padding: 7%;
+
+}
+.textenew:hover
+{
+    color : #A00CB8 ;
+}
+.defile {
+    
+    font-size: 80px;
+    margin-top: 30px;
+    display: inline-block;
+    margin-right: 30px;
+    padding-bottom: 20px;
+    
+    
+}
+span.titreviolet{
+    color: #A00CB8;
+}
+.textcollection{
+    padding-top: 2%;
+    font-family: 'Maven Pro', sans-serif;
+    color: #A00CB8;
+    display: block;
+    width: 500px;
+    height: 130px;
+    margin-left: 100px;
+    margin-bottom: 50px;
+    font-size: 130%;
+
+}
+.slide{
+    
+    width: 290px;
+    height: 290px;
+    object-fit: cover;
+    border-radius: 2%;
+    border: 1px solid black;
+    color: white;
+}
+.slide1{
+    background-image: url("../img/CAPC1.jpg");
+    background-size: cover;
+    background-position: center;
+    
+}
+.slide p {
+    opacity: 0;
+    text-align: center;
+    padding-top: 120px;
+}
+.slide:hover p {
+
+    opacity: 1;
+    background-color: #A00CB8;
+    padding-bottom: 300px;
+    border-radius: 2%;
+    transition:all 1s 
+    cubic-bezier(0.085, 0.82, 0.190, 1)
+    
+    
+
+}
+.slide3{
+    background-image: url("../img/CAPC3.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.slide4 {
+    background-image: url("../img/CAPC4.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.slide5{
+    background-image: url("../img/CAPC5.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.slide6{
+    background-image: url("../img/CAPC6.jpg");
+    background-size: cover;
+    background-position: center;
+    
+}
+.slide7{
+    background-image: url("../img/CAPC7.jpg");
+    background-size: cover;
+    background-position: center;
+}
+section.collection .button{
+    
+    background-color:#A00CB8;
+    text-align: center;
+    padding: 10px 30px 10px 30px;
+    border-radius: 20px;
+    color: white;
+    text-decoration: none;
+    transition: all 0.25s ease-in-out;
+    margin-left: 100px;
+}
+
+div.text-button {
+    margin-bottom: 5%;
+}
