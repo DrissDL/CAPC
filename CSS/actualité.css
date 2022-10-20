@@ -4,9 +4,10 @@
 
 }
 
-body {
+section.fondnoir {
     font-family: 'DIN', sans-serif;
     font-weight: bold;
+    margin-bottom: 1%;
 }
 
 section.fondnoir h2 {
@@ -23,7 +24,7 @@ section.fondnoir h2 {
     text-align: start;
 }
 
-h4 {
+section.fondnoir h4 {
     display: inline-block;
     color: white;
     background-color: #A00CB8;
@@ -42,14 +43,11 @@ h4 {
     background-color: black;
 }
 
-p{
+section.fondnoir p{
     margin-top: 1%;
     color: white;
 }
 
-section {
-    margin-bottom: 1%;
-}
 
 .voir-plus1 {
     font-family: 'DIN', sans-serif;
@@ -104,14 +102,14 @@ section {
     background-color: #A00CB8;
 }
 
-h5{
+section.fondnoir h5{
     color: white;
     margin-left:45px;
     font-size:40px;
     padding:50px;
 }
 
-h6{
+section.fondnoir h6{
     color:white;
     margin-left: 100px;
     margin-bottom: 25px;
