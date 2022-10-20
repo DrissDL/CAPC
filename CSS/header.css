@@ -57,7 +57,7 @@ header .loupe1 {
     justify-self: flex-end;
 }
 
-span.menu {
+a#menu {
     background: white;
     color: black;
     display: none;
