@@ -1,222 +1,121 @@
-body{
-    background-color: white ;
-    width: 1440px;
-}
-@import url('https://fonts.googleapis.com/css2?family=Mada&display=swap');
-h3{
-    font-family: 'Mada', sans-serif;
+h3.newsletter {
+    font-family: 'DIN Condensed';
+    font-weight: bold;
     text-align: center;
-    padding: 30px;
-    padding-right: 100%;
     background-color: black;
     width: 100%;
-}
-@import url('https://fonts.googleapis.com/css2?family=Mada&family=Maven+Pro&display=swap');
-
-p{
-    font-family: 'Maven Pro', sans-serif;
-}
-h1{
-    color: #A00CB8 ;
+    line-height: 400px;
+    color: white;
     text-align: center;
-    font-family: 'dinregular';
-    
-    
+    font-size: 800%;
+    /* padding: 7% 0; */
+    text-transform: uppercase;
 }
-.texte
-{
-    color : black;
-}
- 
-.texte:hover
-{
-    color : #A00CB8 ;
-   
-}
-.textenew
-{
-    color :white;
-    text-align: center;
-    font-size: 600%;
-    padding: 7%;
-    width: 92%;
 
+
+.texte {
+    color: black;
 }
- 
-.textenew:hover
-{
-    color : #A00CB8 ;
-}
-.defile {
-    
-    font-size: xx-large;
-    margin-top: 30px;
-    display: inline-block;
-    margin-right: 30px;
-    padding-bottom: 20px;
-    
-    
-}
-span.titreviolet{
+
+.texte:hover {
     color: #A00CB8;
 }
-.textcollection{
-    padding-top: 2%;
-    font-family: 'Maven Pro', sans-serif;
+
+
+.newsletter:hover {
     color: #A00CB8;
-    display: block;
-    width: 500px;
-    height: 500px;
-    margin-left: 100px;
-   
+}
 
-}
-.slide{
-    
-    width: 290px;
-    height: 290px;
-    object-fit: cover;
-    border-radius: 2%;
-    border: 1px solid black;
-    color: white;
-}
-.slide1{
-    background-image: url("CAPC1.jpg");
-    background-size: cover;
-    background-position: center;
-    
-}
-.slide p {
-    opacity: 0;
-    text-align: center;
-    padding-top: 120px;
-}
-.slide:hover p {
-
-    opacity: 1;
-    background-color: #A00CB8;
-    padding-bottom: 300px;
-    border-radius: 2%;
-    transition:all 1s 
-    cubic-bezier(0.085, 0.82, 0.190, 1)   
-
-}
-.slide3{
-    background-image: url("CAPC3.jpg");
-    background-size: cover;
-    background-position: center;
-}
-.slide4 {
-    background-image: url("CAPC4.jpg");
-    background-size: cover;
-    background-position: center;
-}
-.slide5{
-    background-image: url("CAPC5.jpg");
-    background-size: cover;
-    background-position: center;
-}
-.slide6{
-    background-image: url("CAPC6.jpg");
-    background-size: cover;
-    background-position: center;
-    
-}
-.slide7{
-    background-image: url("CAPC7.jpg");
-    background-size: cover;
-    background-position: center;
-}
-.button{
-    background: #A00CB8;
-    text-align: center;
-    padding: 10px 10px;
-    border-radius: 20px;
-    color: white;
-    text-decoration: none;
-    transition: all 0.25s ease-in-out;
-  
-    display: block;
-    width: 100px;
-    height: 10px;
- 
-    position: absolute;
-    left: 172px;
-    top: 600px;
-}
-.footer{
+.footer {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 5%;
     background: #A00CB8;
     width: 106%;
     height: 100%;
-    margin-bottom: 15%;
-    
+    padding-bottom: 100px;
+
 }
-ul{
+
+ul {
     list-style: none;
     padding-left: 0;
 }
 
 
 .floatleft {
-    
+
     margin-bottom: 15%;
     padding-left: 5%;
-    
-    
+
+
 }
 
-.floatcenterleft{
+.floatcenterleft {
     margin-top: 17%;
     margin-bottom: 10%;
     padding-left: 8%;
-    
-} 
- 
-.floatcenterright{
+
+}
+
+.floatcenterright {
     margin-top: 17%;
     margin-bottom: 10%;
     padding-left: 11%;
-    
+
 }
-.floatright{
+
+.floatright {
     margin-top: 17%;
     padding-left: 10%;
     margin-bottom: 14%;
-    
+
 }
-.footer p{
+
+.footer p,
+.footer h5 {
     color: white;
 }
-.footer h5{
-    color: white;
-}
-.droit{
+
+.droit {
     font-size: large;
     font-style: italic;
     /* left: 5%; */
     background-color: #A00CB8;
-    
-}
-.flotter .logo1, .flotter .logo2 {
-    position: absolute;
-    width:5%;
-    height: 5%;
+    height: 50px;
 }
 
-.flotter .logo2{
-    opacity:0%;
+
+.footer .logo-footer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-content: flex-end;
 }
-.flotter .logo1{
-    opacity:100%;
+
+.logo1-footer, .logo2-footer {
+    position: absolute;
+    width: 100px;
+    /* display: flex;
+    justify-content: flex-end;
+    align-content: flex-end; */
 }
-.flotter .logo1:hover{
+
+.footer .logo2-footer {
+    opacity: 0%;
+}
+
+.footer .logo1-footer {
+    opacity: 100%;
+}
+
+.footer .logo1-footer:hover {
     transition: 300ms;
-    opacity:0%;
+    opacity: 0%;
 }
-.flotter .logo2:hover {
+
+.footer .logo2-footer:hover {
     transition: 300ms;
-    opacity:100%;
+    opacity: 100%;
 }
