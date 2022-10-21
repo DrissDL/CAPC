@@ -80,6 +80,8 @@ ul {
 .footer p,
 .footer h5 {
     color: white;
+    font-family: 'Mada';
+    font-size: 26px;
 }
 
 .droit {
