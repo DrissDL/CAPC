@@ -203,17 +203,28 @@ table {
 }
 
 .accueil_infos {
+
     width: 100vw;
     height: 70vh;
 
 }
 
-.accueil_infos h4 {
+h4 {
     font-family: 'Maven Pro', sans-serif;
-    font-size: 5vw;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 40px;
+    color: #000000;
+    text-align: left;
+}
+
+.accueil_infos h4 {
+
     margin-left: 6vw;
     margin-top: 10vw;
 }
+
+
 
 .accueil_infos p {
     font-family: 'Maven Pro', sans-serif;
@@ -226,14 +237,18 @@ table {
 
 .infos_expo2 {
     width: 100vw;
+
 }
 
 .titre_expo2_page {
     display: flex;
     justify-content: flex-end;
-    margin-top: 6vw;
-    margin-bottom: 6vw;
+    flex-wrap: wrap;
 }
+
+/* margin-top: 6vw;
+margin-bottom: 6vw;
+}  */
 
 .infos_expo2 h3 {
     font-size: 3vw;
@@ -244,7 +259,7 @@ table {
 }
 
 .infos_expo2 h2 {
-    font-size: 5vw;
+    font-size: 100px;
     font-family: 'DIN Condensed';
     margin-left: 6vw;
     margin-right: 6vw;
@@ -342,6 +357,7 @@ table {
 
 .expo3AbbasZahedi {
     display: flex;
+    flex-wrap: wrap-reverse;
 }
 
 h2 {
@@ -389,12 +405,12 @@ p {
 img {
     border-radius: 5%;
 }
-
 @font-face {
     font-family: 'DIN';
     src: url(‘police/DIN/DINCondensed-Bold.ttf’) format('ttf'),
 
 }
+
 
 body {
     font-family: 'DIN', sans-serif;
@@ -453,7 +469,7 @@ body {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
+    margin-left: 10vw;
     align-items: flex-end;
     margin-bottom: 10vw;
 }
@@ -478,15 +494,160 @@ body {
     margin-top: 8vw;
 }
 
-.h4barbapapa {
-    line-height: 1vw;
-    font-family: 'Maven Pro', sans-serif;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 40px;
-    color: #000000;
-    text-align: left;
-    line-height: 70px;
+
+
+.expo2tel {
+    display: none;
 }
 
-/* @media */
+@media (max-width: 1024px) {
+    .accueil_expo h1 {
+        font-size: 60px;
+        padding-top: 10%;
+        padding-left: 10vw;
+        padding-bottom: 10vw;
+        display: flex;
+        justify-content: flex-start;
+    }
+
+
+
+    .accueil_expo .expo1 {
+        width: 45vw;
+        height: 55vw;
+        border-radius: 5%;
+        margin: 1%;
+
+    }
+
+    .accueil_expo .expo2 {
+        display: none;
+
+    }
+
+    .accueil_expo .expo3 {
+        width: 45vw;
+        height: 55vw;
+        border-radius: 5%;
+        margin: 1%;
+
+    }
+
+    .accueil_expo h2 {
+        font-size: 60px;
+    }
+
+    .accueil_expo h3 {
+        font-size: 25px;
+    }
+
+    .expo2tel {
+        display: flex;
+        margin: 5vw;
+        width: 90vw;
+
+    }
+
+    .expo7 {
+        display: flex;
+        margin: 5vw;
+        width: 90vw;
+    }
+
+    .sectionanka h2 {
+        font-size: 60px;
+        margin: 5vw;
+    }
+
+    .sectionanka h3 {
+        font-size: 25px;
+        margin: 5vw;
+        display: flex;
+        align-items: flex-start;
+    }
+
+    .panka {
+        display: flex;
+        width: 90vw;
+        margin: 5vw;
+    }
+
+    .sectionnomfin h3 {
+        display: block;
+        justify-content: flex-start;
+        font-size: 25px;
+
+    }
+
+    .tailleimage {
+        width: 90%;
+        margin: 5vw;
+    }
+
+
+    .sectionnomfin h5 {
+        font-size: 60px;
+
+    }
+
+    .sectiontextefin h4 {
+        margin-left: 0vw;
+        font-size: 30px;
+    }
+
+    .pfin {
+        font-size: 25px;
+    }
+
+    .accueil_infos {
+        margin-top: 75vh;
+    }
+
+    .accueil_infos h4 {
+        font-size: 30px;
+    }
+
+    .accueil_infos p {
+        font-size: 25px;
+    }
+
+    .infos_expo2 {
+        margin-top: 120vw;
+    }
+
+    .expo3_contenu {
+        margin-top: 50vw;
+
+    }
+
+    .poragraphe {
+        font-size: 25px;
+        width: 90vw;
+    }
+
+    .abbastitre {
+        font-size: 60px;
+    }
+
+    .expo3AbbasZahedi h3 {
+        font-size: 25px;
+    }
+
+    .abbas {
+        margin: 5vw;
+        width: 90vw;
+        height: auto;
+    }
+
+    .infos_expo2 h3 {
+        display: flex;
+        justify-content: flex-start;
+        font-size: 25px;
+        margin-left: 0vw;
+    }
+
+    .infos_expo2 h2 {
+        font-size: 60px;
+    }
+
+}
