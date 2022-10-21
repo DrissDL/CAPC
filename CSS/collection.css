@@ -190,6 +190,10 @@ div.text-button {
     .textcollection{
         font-size: 100%;
         width: 300px;
+        /* left: 30px; */
+        margin-left:10px ;
+        margin-bottom: 0;
+        
     }
     .slide {
         /* display: max-bloc-size; */
@@ -197,10 +201,11 @@ div.text-button {
         width: 100px;
         height: 100px;
     }
-    /* .textenew{
-        font-size: 100%;
-        color: white
-    } */
+    .textenew{
+        font-size: 10%;
+        color: white;
+        padding: 0;
+    }
     /* .texte-carousel{
         background-color: black;
     } */

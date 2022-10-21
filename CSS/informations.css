@@ -148,16 +148,19 @@ div.maps {
 @media (max-width: 1024px){
 
 	.section-info h2{
-		font-size: 60px;
-		width: 100%;
+		font-size: 50px;
+		width: 80%;
 	}
 	.div-info{
-		font-size: 10px;
+		font-size: 20px;
 		display: max-block-size;
 		justify-content: left;
 		margin-top: 40%;
 	}
 	.photo-opaque{
 		display: max-bloc-size;
+	}
+	.div-info h4{
+		font-size: 19.5px;
 	}
 }
