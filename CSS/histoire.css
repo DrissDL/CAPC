@@ -92,7 +92,7 @@ section.histoire h1, h2, h3 ,h4{
     .histoire-text{
         /* width: 100%;
         height: 10px; */
-        font: size 5px; 
+        font-size: 20px; 
         /* display: flex; */
         padding-top: 0;
         margin-left: 0;
@@ -122,6 +122,35 @@ section.histoire h1, h2, h3 ,h4{
         margin-left: 0;
     margin-bottom: 0;
     }
+
+}
+@media (max-width: 768px){
+    .histoire-div{
+        flex-direction: column-reverse;
+        margin-bottom: 30px;
+        padding-bottom: 30px;
+
+    }
+    .img-hist1{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 30px;
+    }
+    .environnement-contenu{
+        flex-direction: column;
+    }
+    .img-hist2{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 30px;
+    }
+    .titre-parti{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
 
 }
 
