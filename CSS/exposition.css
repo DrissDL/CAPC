@@ -1,3 +1,141 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+    v2.0 | 20110126
+    License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/********************************************************/
+
 @import url('https://fonts.googleapis.com/css2?family=Mada:wght@200;300;400;500;600;700&family=Maven+Pro:wght@400;500;600;700&display=swap');
 
 /********************************************************/
@@ -110,7 +248,7 @@ h4 {
 
 /* margin-top: 6vw;
 margin-bottom: 6vw;
-}  */
+} */
 
 .infos_expo2 h3 {
     font-size: 3vw;
@@ -222,7 +360,7 @@ margin-bottom: 6vw;
     flex-wrap: wrap-reverse;
 }
 
-.expostion h2 {
+h2 {
 
     font-family: 'DIN Condensed';
     font-style: normal;
@@ -230,14 +368,14 @@ margin-bottom: 6vw;
     color: #000000;
 }
 
-.exposition h3 {
+h3 {
     font-family: 'Mada';
     font-style: normal;
     font-size: 45px;
     color: #000000;
 }
 
-.exposition h4 {
+h4 {
     font-family: 'Maven Pro', sans-serif;
     font-style: normal;
     font-weight: 300;
@@ -247,14 +385,14 @@ margin-bottom: 6vw;
     line-height: 70px;
 }
 
-.exposition h5 {
+h5 {
     font-family: 'DIN Condensed';
     font-style: normal;
     font-weight: 700;
     font-size: 100px;
 }
 
-.exposition p {
+p {
     font-family: 'Maven Pro', sans-serif;
     font-style: normal;
     font-weight: lighter;
@@ -264,9 +402,10 @@ margin-bottom: 6vw;
 }
 
 
-.exposition img {
+img {
     border-radius: 5%;
 }
+
 @font-face {
     font-family: 'DIN';
     src: url(‘police/DIN/DINCondensed-Bold.ttf’) format('ttf'),
