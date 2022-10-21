@@ -274,7 +274,7 @@ margin-bottom: 6vw;
 
 .illustrations-expo2 {
     display: flex;
-    flex-wrap: wrap;
+
 }
 
 .oeuvre {
@@ -731,7 +731,7 @@ ul {
     }
 
     .expo3_contenu {
-        margin-top: 50vw;
+        margin-top: 150vw;
 
     }
 
@@ -793,3 +793,9 @@ ul {
 
 }
 
+/*
+.illustrations-expo2 {
+    display: flex;
+    flex-wrap: wrap;
+}
+*/

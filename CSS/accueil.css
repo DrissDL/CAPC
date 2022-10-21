@@ -30,6 +30,7 @@ div.div-titre {
 
 .titre:hover {
     color: #A00CB8;
+    cursor:progress;
 }
 
 section.accueil .gif {

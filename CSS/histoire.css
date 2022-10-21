@@ -9,9 +9,7 @@ section.histoire div.titre{
     justify-content: left;
 }
 .titre-histoire{
-    color: rgb(160, 12, 184);
-   
-    
+    color: rgb(160, 12, 184);    
 }
 
 .titre-parti{
@@ -36,7 +34,6 @@ section.histoire div.titre{
     font-size: 20px;
     padding: 10px 30px 10px 30px;
     border: none;
-    
 }
 .histoire-div{
     display: flex;
