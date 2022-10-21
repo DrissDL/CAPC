@@ -5,6 +5,7 @@
 }
 
 section.fondnoir {
+    background-color: black;
     font-family: 'DIN', sans-serif;
     font-weight: bold;
     margin-bottom: 1%;
@@ -31,16 +32,19 @@ section.fondnoir h4 {
     padding: 1%;
 
 }
-
-.img2 {
+section.fondnoir .img1 {
     margin-top: 11%;
     border-radius: 5%;
     margin-left: 5vw;
     margin-right: 5vw;
+    
 }
-
-.fondnoir {
-    background-color: black;
+section.fondnoir .img2 {
+    margin-top: 11%;
+    border-radius: 5%;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    
 }
 
 section.fondnoir p{
@@ -49,7 +53,7 @@ section.fondnoir p{
 }
 
 
-.voir-plus1 {
+section.fondnoir .voir-plus1 {
     font-family: 'DIN', sans-serif;
     background-color: rgb(160, 12, 184);
     color: rgb(255, 255, 255);
@@ -57,42 +61,41 @@ section.fondnoir p{
     border: solid 1px black;
     font-size: 20px;
     margin: 2%;
+    padding: 10px 30px 10px 30px;
 }
 
-.contenant {
+section.fondnoir .contenant {
     position: relative;
     text-align: center;
 }
 
-.texte_centrer {
+section.fondnoir .texte_centrer1 {
     position: relative;
-    top: 80%;
     left: 38%;
     transform: translate(-50%, -50%);
 
 }
-.texte_centrer2 {
+
+section.fondnoir .texte_centrer2 {
     position: relative;
-    top: 50%;
     left: 55%;
-    transform: translate(-20%, -20%);
+    /* transform: translate(-20%, -20%); */
     margin-right: 60%;
     text-align: start;
 
 }
 
-.texte_centrer3 {
+section.fondnoir .texte_centrer3 {
     position: relative;
-    top: 80%;
-    left: 20%;
-    transform: translate(-100%, -50%);
+    left: 10%;
+    transform: translate(-50%, -50%);
 
 }
-.texte_centrer4 {
+section.fondnoir .texte_centrer4 {
     position: relative;
-    top: 50%;
+    /* margin-top: 10%; */
     left: 45%;
-    transform: translate(-20%, -20%);
+    /* transform: translate(-20%, 20%); */
     margin-right: 60%;
     text-align: start;
 
@@ -117,7 +120,7 @@ section.fondnoir h6{
     font-size: 25px;
 }
 
-.flex{
+section.fondnoir .flex{
     display: flex;
     text-align: left;
     justify-content: space-between;
@@ -128,19 +131,33 @@ section.fondnoir h6{
     section.fondnoir h2 {
         font-size: 40px;
     }
-    .fondnoir .flex {
+    
+    section.fondnoir .flex {
         display: block;
     }
-    .img2 {
+
+    section.fondnoir .img1, section.fondnoir .img2  {
         margin-left: 0;
         margin-right: 0;
     }
-    .contenant {
+
+    section.fondnoir .contenant {
         padding-left: 20px;
         padding-right: 20px;
     }
-    .texte_centrer2{
-        left: auto;
-        margin-right: 0;
+
+
+    section.fondnoir .texte_centrer1 {
+        margin-left: 10%;
+    }
+
+    section.fondnoir .texte_centrer p {
+        left: 20%;
+        margin-right: 30%;
+        margin-bottom: 10%;
+    }
+
+    section.fondnoir input.voir-plus1 {
+        margin-bottom: 10%;
     }
 }

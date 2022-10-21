@@ -1,3 +1,7 @@
+.collage{
+    margin-right: 0;
+}
+
 div.photo-top , div.photo-bottom {
     /* justify-content: center; */
     margin-left:5%
@@ -10,7 +14,7 @@ div.photo-top , div.photo-bottom {
 } */
 
 div.div-titre {
-    width: 100%;
+    width: 97%;
 }
 
 .titre {
@@ -28,30 +32,38 @@ div.div-titre {
     color: #A00CB8;
 }
 
-.gif {
+section.accueil .gif {
     position: absolute;
-    margin-left: 228px;
-    margin-top: 86px;
-    border-radius: 20px;
     border: solid 1px black;
 }
 
-.gaf {
-    position: absolute;
+
+section.accueil .photo-top .gif {
+    margin-left: 228px;
+    margin-top: 86px;
+    border-radius: 20px;
+}
+
+section.accueil .photo-bottom .gif {
     margin-inline-start: 903px;
     margin-top: 140px;
     border-radius: 20px;
-    border: solid 1px black;
 }
 
 
 @media (max-width: 1024px) {
-    div.photo-top, div.photo-bottom {
+    .accueil {
+        padding-bottom: 10%;
+    }
+
+    .accueil .gif {
         display: none;
     }
-    .titre {
+
+    .accueil .titre {
         font-size:52px;
         line-height: 80px;
     }
 
+    
 }

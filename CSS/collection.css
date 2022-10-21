@@ -1,6 +1,6 @@
 section.collection {
     background-color: white ;
-    width: 1440px;
+    
 }
 @import url('https://fonts.googleapis.com/css2?family=Mada&display=swap');
 section.collection h3{
@@ -44,7 +44,7 @@ section.collection h1{
 }
 .defile {
     
-    font-size: xx-large;
+    font-size: 80px;
     margin-top: 30px;
     display: inline-block;
     margin-right: 30px;
@@ -63,6 +63,8 @@ span.titreviolet{
     width: 500px;
     height: 130px;
     margin-left: 100px;
+    margin-bottom: 50px;
+    font-size: 130%;
 
 }
 .slide{
@@ -127,7 +129,7 @@ section.collection .button{
     
     background-color:#A00CB8;
     text-align: center;
-    padding: 10px 10px;
+    padding: 10px 30px 10px 30px;
     border-radius: 20px;
     color: white;
     text-decoration: none;
@@ -137,4 +139,81 @@ section.collection .button{
 
 div.text-button {
     margin-bottom: 5%;
+}
+@media (max-width: 1024px){
+    .defile{
+        display: max-block-size;
+    }
+    
+
+    .span{
+        display: max-block-size;
+    }
+    
+
+    .slide{
+        display: max-block-size;
+    }
+
+    .slide1{
+        display: max-block-size;
+        width: 200px;
+        height: 200px;
+    }
+    
+    .slide3{
+        display:max-block-size;
+        width: 200px;
+        height: 200px;
+    }
+    .slide4{
+        display:max-block-size;
+        width: 200px;
+        height: 200px;
+    }
+    .slide5{
+        display:max-block-size;
+        width: 200px;
+        height: 200px;
+    }
+    .slide6{
+        display:max-block-size;
+        width: 200px;
+        height: 200px;
+    }
+    .slide7{
+        display:max-block-size;
+        width: 200px;
+        height: 200px;
+    }
+
+    .textcollection{
+        font-size: 100%;
+        width: 300px;
+        /* left: 30px; */
+        margin-left:10px ;
+        margin-bottom: 0;
+        
+    }
+    .slide {
+        /* display: max-bloc-size; */
+        font-size: 100px;
+        width: 100px;
+        height: 100px;
+    }
+    .textenew{
+        font-size: 10%;
+        color: white;
+        padding: 0;
+    }
+    /* .texte-carousel{
+        background-color: black;
+    } */
+    .slide p {
+        display: flex;
+    }
+    
+
+    
+
 }
