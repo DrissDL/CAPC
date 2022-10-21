@@ -146,6 +146,14 @@ ul {
         width: 150%;
     }
 
+    .footer p,
+.footer h5 {
+    color: white;
+    font-family: 'DIN';
+    font-size: 20px;
+    font-weight: bold;
+}
+
 }
 @media (max-width: 768px){
     .newsletter h3{
