@@ -80,8 +80,9 @@ ul {
 .footer p,
 .footer h5 {
     color: white;
-    font-family: 'Mada';
-    font-size: 26px;
+    font-family: 'DIN';
+    font-size: 28px;
+    font-weight: bold;
 }
 
 .droit {
@@ -144,6 +145,14 @@ ul {
         font-size: 10px;
         width: 150%;
     }
+
+    .footer p,
+.footer h5 {
+    color: white;
+    font-family: 'DIN';
+    font-size: 15px;
+    font-weight: bold;
+}
 
 }
 @media (max-width: 768px){
