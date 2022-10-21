@@ -514,10 +514,8 @@ margin-bottom: 6vw;
     color: #A00CB8;
 }
 
+/*******footer*****************/
 
-.newsletter:hover {
-    color: #A00CB8;
-}
 footer{
     background: #A00CB8;
     display: grid;
@@ -569,16 +567,16 @@ ul {
 .footer p,
 .footer h5 {
     color: white;
+    font-family: 'DIN';
+    font-size: 28px;
+    font-weight: bold;
 }
 
-.droit {
-    display: none;
-}
 
 
 .footer .logo-footer {
     grid-column: 4 ;
-     grid-row: 2;
+    grid-row: 2;
 }
 
 .logo1-footer, .logo2-footer {
@@ -766,6 +764,40 @@ ul {
         width: 90vw;
         height: auto;
     }
+
+
+    /*******footer*****************/
+
+    .footer{
+        width: 100%;
+        height: 100%;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(5, auto);
+        grid-gap: 5%;
+    }
+    .footer .logo-footer{
+        width: auto;
+        grid-column-start: 2;
+        grid-column-end:3 ;
+        grid-row-end:2 ;
+        grid-row-start:1 ;
+    }
+    .illustrations-expo2 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .footer p,
+    .footer h5 {
+        color: white;
+        font-family: 'DIN';
+        font-size: 15px;
+        font-weight: bold;
+    }
+}
+
+@media (max-width: 768px){
+
     .logo-footer.logo1-footer{
         font-size: 10px;
     }
@@ -786,12 +818,6 @@ ul {
         grid-row-end:2 ;
         grid-row-start:1 ;
     }
-    .illustrations-expo2 {
-        display: flex;
-        flex-wrap: wrap;
-    }
 }
-
-
 
 
