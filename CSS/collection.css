@@ -151,41 +151,9 @@ div.text-button {
     }
     
 
-    .slide{
-        display: max-block-size;
-    }
+  
 
-    .slide1{
-        display: max-block-size;
-        width: 200px;
-        height: 200px;
-    }
-    
-    .slide3{
-        display:max-block-size;
-        width: 200px;
-        height: 200px;
-    }
-    .slide4{
-        display:max-block-size;
-        width: 200px;
-        height: 200px;
-    }
-    .slide5{
-        display:max-block-size;
-        width: 200px;
-        height: 200px;
-    }
-    .slide6{
-        display:max-block-size;
-        width: 200px;
-        height: 200px;
-    }
-    .slide7{
-        display:max-block-size;
-        width: 200px;
-        height: 200px;
-    }
+
 
     .textcollection{
         font-size: 100%;
@@ -196,10 +164,10 @@ div.text-button {
         
     }
     .slide {
-        /* display: max-bloc-size; */
+        display: max-bloc-size;
         font-size: 100px;
-        width: 100px;
-        height: 100px;
+        width: 200px;
+        height: 200px;
     }
     .textenew{
         font-size: 10%;
@@ -210,10 +178,26 @@ div.text-button {
         background-color: black;
     } */
     .slide p {
-        display: flex;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 0;
+    
+     }
+   
+    
+
+    
+
+}
+@media (max-width: 768px){
+    .slide{
+        width: 100px;
+        height: 100px;
     }
-    
-
-    
-
+    .slide p {
+        display: none;
+        padding-top: 0;
+        
+        
+    }
 }

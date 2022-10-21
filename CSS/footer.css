@@ -4,12 +4,14 @@ h3.newsletter {
     text-align: center;
     background-color: black;
     width: 100%;
-    line-height: 400px;
+    
     color: white;
     text-align: center;
-    font-size: 800%;
+    font-size: 100px;
     /* padding: 7% 0; */
     text-transform: uppercase;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 
@@ -123,12 +125,11 @@ ul {
 
 @media (max-width: 1024px) {
 
-    .newsletter{
-        font-size: 30%;
-        height: 300px;
+    .newsletter h3{
+        font-size: 50px;
         margin-top: 20px;
         /* text-align: center; */
-        line-height: 200px;
+        
         
     }
     .logo-footer.logo1-footer{
@@ -142,4 +143,13 @@ ul {
         width: 150%;
     }
 
+}
+@media (max-width: 768px){
+    .newsletter h3{
+        font-size: 20px;
+        margin-top: 20px;
+        /* text-align: center; */
+        
+        
+    }
 }
