@@ -52,16 +52,24 @@ section.fondnoir p{
     color: white;
 }
 
+section.fondnoir div.button-div {
+    display: flex;
+}
 
-section.fondnoir .voir-plus1 {
+section.fondnoir a {
     font-family: 'DIN', sans-serif;
     background-color: rgb(160, 12, 184);
     color: rgb(255, 255, 255);
     border-radius: 20px;
-    border: solid 1px black;
     font-size: 20px;
     margin: 2%;
-    padding: 10px 30px 10px 30px;
+    padding: 10px 30px;
+    text-decoration: none;
+    transition: all 0.25s ease-in-out;
+}
+
+a.button:hover {
+    transform: scale(1.1);
 }
 
 section.fondnoir .contenant {
@@ -157,7 +165,7 @@ section.fondnoir .flex{
         margin-bottom: 10%;
     }
 
-    section.fondnoir input.voir-plus1 {
+    section.fondnoir a.button {
         margin-bottom: 10%;
     }
 }
