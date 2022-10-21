@@ -274,7 +274,7 @@ margin-bottom: 6vw;
 
 .illustrations-expo2 {
     display: flex;
-    flex-wrap: wrap;
+
 }
 
 .oeuvre {
@@ -619,7 +619,7 @@ body {
     }
 
     .expo3_contenu {
-        margin-top: 50vw;
+        margin-top: 150vw;
 
     }
 
@@ -663,6 +663,11 @@ body {
         margin: 5vw;
         width: 90vw;
         height: auto;
+    }
+
+    .illustrations-expo2 {
+        display: flex;
+        flex-wrap: wrap;
     }
 
 }
