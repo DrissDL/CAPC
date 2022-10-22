@@ -67,6 +67,10 @@ header .close {
     margin-right: 5px;
 }
 
+input.rechercher:hover {
+    border-color: #A00CB8;
+}
+
 @media (max-width: 1024px) {
 
     header .logo1,
