@@ -2,6 +2,9 @@ img {
   max-width: 100%;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Mada:wght@200;400;600&family=Maven+Pro:wght@400;500;600&display=swap');
+
+
 /* a.button {
   text-decoration: none;
   transition: all 0.25s ease-in-out;
