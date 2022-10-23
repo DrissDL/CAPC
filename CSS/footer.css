@@ -48,6 +48,7 @@ footer h5 {
     padding-left: 5%;
     grid-row-start: 1;
     grid-row-end: 2;
+    text-transform: uppercase;
 }
 
 /* .bottom-foot {

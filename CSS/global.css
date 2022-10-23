@@ -10,8 +10,17 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Mada:wght@200;400;600&family=Maven+Pro:wght@400;500;600&display=swap');
 
-h1, h2, h3 ,h4{
-  font-family:'DIN condensed', sans-serif ;
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'DIN condensed', sans-serif;
+}
+
+h1,
+h2 {
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
 img {
