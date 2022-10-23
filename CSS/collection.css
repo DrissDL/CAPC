@@ -126,21 +126,15 @@ span.titreviolet{
     background-size: cover;
     background-position: center;
 }
-section.collection .button{
-    
-    background-color:#A00CB8;
-    text-align: center;
-    padding: 10px 30px 10px 30px;
-    border-radius: 20px;
-    color: white;
-    text-decoration: none;
-    transition: all 0.25s ease-in-out;
+section.collection a.button{
     margin-left: 100px;
 }
 
 div.text-button {
     margin-bottom: 5%;
 }
+
+
 @media (max-width: 1024px){
     .defile{
         display: max-block-size;

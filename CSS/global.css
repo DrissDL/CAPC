@@ -1,14 +1,46 @@
-img {
-  max-width: 100%;
+@font-face {
+  font-family: 'DIN';
+  src: url(‘police/DIN/DINCondensed-Bold.ttf’) format('ttf'),
+}
+
+@font-face {
+  font-family: 'DIN condensed';
+  src: url('/users/currentUser/Library/fonts/DIN condensed');
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Mada:wght@200;400;600&family=Maven+Pro:wght@400;500;600&display=swap');
 
+h1, h2, h3 ,h4{
+  font-family:'DIN condensed', sans-serif ;
+}
 
-/* a.button {
+img {
+  max-width: 100%;
+}
+
+div.button {
+  display: flex;
+}
+
+a.button {
+  font-family: 'DIN', sans-serif;
+  background-color: rgb(160, 12, 184);
+  color: rgb(255, 255, 255);
+  border-radius: 20px;
+  font-size: 20px;
+  margin: 2%;
+  padding: 10px 30px;
   text-decoration: none;
   transition: all 0.25s ease-in-out;
+  text-decoration: none;
+  transition: all 0.25s ease-in-out;
+  display: flex;
 }
+
 a.button:hover {
   transform: scale(1.1);
-} */
+}
+
+p {
+  font-family: 'Maven Pro', sans-serif;
+}

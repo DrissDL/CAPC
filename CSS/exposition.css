@@ -1,146 +1,3 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-    v2.0 | 20110126
-    License: none (public domain)
-*/
-
-html,
-body,
-div,
-span,
-applet,
-object,
-iframe,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-pre,
-a,
-abbr,
-acronym,
-address,
-big,
-cite,
-code,
-del,
-dfn,
-em,
-img,
-ins,
-kbd,
-q,
-s,
-samp,
-small,
-strike,
-strong,
-sub,
-sup,
-tt,
-var,
-b,
-u,
-i,
-center,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td,
-article,
-aside,
-canvas,
-details,
-embed,
-figure,
-figcaption,
-footer,
-header,
-hgroup,
-menu,
-nav,
-output,
-ruby,
-section,
-summary,
-time,
-mark,
-audio,
-video {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
-}
-
-/* HTML5 display-role reset for older browsers */
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-menu,
-nav,
-section {
-    display: block;
-}
-
-body {
-    line-height: 1;
-}
-
-ol,
-ul {
-    list-style: none;
-}
-
-blockquote,
-q {
-    quotes: none;
-}
-
-blockquote:before,
-blockquote:after,
-q:before,
-q:after {
-    content: '';
-    content: none;
-}
-
-table {
-    border-collapse: collapse;
-    border-spacing: 0;
-}
-
-/********************************************************/
-
-@import url('https://fonts.googleapis.com/css2?family=Mada:wght@200;300;400;500;600;700&family=Maven+Pro:wght@400;500;600;700&display=swap');
-
-/********************************************************/
-
-
 .accueil_expo {
     width: 100vw;
     height: 70vw;
@@ -155,6 +12,7 @@ table {
 
 .accueil_expo h1 {
     font-family: 'DIN Condensed';
+    font-weight: bold;
     font-style: normal;
     font-size: 180px;
     padding-top: 10%;
@@ -193,6 +51,7 @@ table {
     justify-content: center;
     font-family: 'DIN Condensed';
     font-size: 7vw;
+    font-weight: bold;
 }
 
 .date1 {
@@ -503,9 +362,6 @@ margin-bottom: 6vw;
     display: none;
 }
 
-
- 
-
 .texte {
     color: black;
 }
@@ -516,7 +372,7 @@ margin-bottom: 6vw;
 
 /*******footer*****************/
 
-footer{
+/* footer{
     background: #A00CB8;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -601,7 +457,7 @@ ul {
 .footer .logo2-footer:hover {
     transition: 300ms;
     opacity: 100%;
-}
+} */
 
 @media (max-width: 1024px) {
     .accueil_expo h1 {
@@ -765,9 +621,14 @@ ul {
         height: auto;
     }
 
+    .illustrations-expo2 {
+        display: flex;
+        flex-wrap: wrap;
+    }
 
-    /*******footer*****************/
-
+}
+    /*********footer*****************/
+/* 
     .footer{
         width: 100%;
         height: 100%;
@@ -782,10 +643,6 @@ ul {
         grid-row-end:2 ;
         grid-row-start:1 ;
     }
-    .illustrations-expo2 {
-        display: flex;
-        flex-wrap: wrap;
-    }
 
     .footer p,
     .footer h5 {
@@ -794,9 +651,9 @@ ul {
         font-size: 15px;
         font-weight: bold;
     }
-}
+} */
 
-@media (max-width: 768px){
+/* @media (max-width: 768px){
 
     .logo-footer.logo1-footer{
         font-size: 10px;
@@ -819,5 +676,4 @@ ul {
         grid-row-start:1 ;
     }
 }
-
-
+*/
